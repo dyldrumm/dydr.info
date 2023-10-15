@@ -12,7 +12,7 @@ class Navbar extends Component {
                     <ul className="nav-menu">
                         {MenuData.map((item, index) => {
                             return(
-                        <li key={index}>
+                            <li key={index}>
                             <a href={item.url}
                             className={item.cName}>
                             <i className={item.icon}>
